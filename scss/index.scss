@@ -1,0 +1,847 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amiri:ital,wght@0,400;0,700;1,400&family=Jost:ital,wght@0,100;1,100&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;0,6..12,800;1,6..12,200&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amiri:ital,wght@0,400;0,700;1,400&family=Jost:ital,wght@0,100;1,100&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Mongolian&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;0,6..12,800;1,6..12,200&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amiri:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jost:ital,wght@0,100;1,100&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Mongolian&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;0,6..12,800;1,6..12,200&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amiri:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jost:ital,wght@0,100;1,100&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Mongolian&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;0,6..12,800;1,6..12,200&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+
+body {
+  height: auto;
+  ;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.arrive {
+  font-size: 2.8rem;
+  font-family: "Anek Devanagari", sans-serif;
+  font-weight: bolder;
+  color: #000000;
+
+}
+
+/*-----------------------------------  START SIGN PAGE -----------------*/
+div .sign {
+  height: 38px;
+  padding-top: 5px;
+  background-color: #000000;
+  color: #F5F7F8
+}
+
+.sign a {
+  color: #F5F7F8;
+}
+
+div.sign i {
+  padding-left: 15px;
+  color: white;
+}
+
+//?----------------------------------END SIGN PAGE---------------------------------//
+
+.navbar {
+  background-color: #ffffff;
+  /* Set background color */
+}
+
+/* Navbar brand styling */
+.shop h2 {
+  font-size: 2rem;
+  /* Adjust font size */
+  font-weight: bolder;
+  color: #000000;
+}
+
+/* Adjust form control and input group styles */
+.input-group-text {
+  background-color: #8F8F8F;
+  /* Set background color */
+  color: #ffffff;
+  /* Set text color */
+  border: none;
+  /* Remove border */
+}
+
+.form-control {
+  border-radius: 4px;
+  /* Rounded corners */
+  padding: 10px;
+  /* Adjust padding */
+  background-color: #8F8F8F;
+  /* Set background color */
+  color: #ffffff;
+  /* Set text color */
+}
+
+/* Styles for the icons */
+.cart {
+  display: flex;
+  /* Align items horizontally */
+  align-items: center;
+  /* Center items vertically */
+}
+
+.cart2 {
+  border: 2px solid #000000;
+  /* Border color */
+  border-radius: 50%;
+  /* Make it circular */
+  width: 20px;
+  /* Set width */
+  height: 20px;
+  /* Set height */
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .shop h2 {
+    font-size: 1.5rem;
+    /* Adjust heading size for medium screens */
+  }
+
+  .form-control {
+    min-width: 200px;
+    /* Adjust form control width */
+  }
+
+  .cart {
+    font-size: 1rem;
+    /* Adjust font size */
+    width: 25px;
+    /* Adjust cart icon size */
+  }
+
+  .cart2 {
+    width: 25px;
+    /* Adjust size */
+    height: 25px;
+    /* Adjust size */
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    text-align: center;
+    /* Center-align text */
+  }
+
+  .form-control {
+    width: 100%;
+    /* Full-width on small screens */
+  }
+
+  .cart {
+    font-size: 0.8rem;
+    /* Further reduce font size */
+  }
+
+  .cart2 {
+    width: 20px;
+    /* Adjust size */
+    height: 20px;
+    /* Adjust size */
+  }
+}
+
+/*-----------------------------------  START info PAGE ---------------------------------*/
+
+.header {
+  padding: 2rem 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.shop {
+  margin-top: 1rem;
+}
+
+.people {
+  margin-top: 2rem;
+}
+
+.column-content {
+  margin-bottom: 0.5rem;
+}
+
+.images {
+  position: relative;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.vector1,
+.vector2 {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  /* Adjust size as needed */
+}
+
+.head {
+  position: relative;
+  width: 100%;
+}
+
+.vector1 {
+  left: -10%;
+}
+
+.vector2 {
+  right: -10%;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .shop {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .vector1,
+  .vector2 {
+    width: 80px;
+  }
+
+  .head {
+    width: 90%;
+  }
+
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+  }
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .shop {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+
+  .vector1,
+  .vector2 {
+    width: 60px;
+  }
+
+  .head {
+    width: 80%;
+  }
+}
+
+//?----------------------------------END brand PAGE-----------------------------------------//
+/*-----------------------------------  START BOX (New Arriv , top sell) PAGE ---------------------------------*/
+.box {
+  background-color: #fff;
+  transition: transform 0.2s;
+  -webkit-transition: transform 0.2s;
+  -moz-transition: transform 0.2s;
+  -ms-transition: transform 0.2s;
+  -o-transition: transform 0.2s;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.card-img {
+  object-fit: cover;
+  background-color: #e7e7e7;
+  border: none;
+}
+
+.rate {
+  color: #c8c7c7;
+  font-size: 2rem;
+}
+
+button.views {
+  display: block;
+  text-align: center;
+  justify-content: auto;
+  /* Adjust the margin as needed */
+  width: 15%;
+  height: 60px;
+  margin: 20px;
+  font-size: 2rem;
+  background-color: #e2e2e2;
+}
+
+//?----------------------------------END BOX(New Arriv , top sell) PAGE-----------------------------------------//
+/*-----------------------------------  START BROWSE PAGE ---------------------------------*/
+.browse {
+  background-color: #f2f0f1;
+}
+
+.formal img {
+  height: 280px;
+}
+
+//?----------------------------------END BROWSE PAGE-----------------------------------------//
+/*-----------------------------------  START Happy PAGE ---------------------------------*/
+.arrow {
+  text-align: right;
+  margin-top: 10px;
+
+}
+
+.arrow button {
+  border: none;
+  background-color: #ffffff;
+}
+
+.carouselParent {
+  overflow: hidden;
+
+}
+
+.carousel-container {
+  position: relative;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-control {
+  border: 2px solid #000;
+  /* Border color */
+  background: none;
+  /* No background color */
+  padding: 10px;
+  /* Adjust padding as needed */
+  margin-left: 10px;
+  /* Space between arrows */
+  cursor: pointer;
+}
+
+.carousel-control img {
+  width: 20px;
+  /* Adjust as needed */
+  height: auto;
+}
+
+.carousel-wrapper {
+  overflow: hidden;
+  /* Adjust this to fit your layout */
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.custom-card1 {
+  transition: opacity 0.5s ease-in-out;
+  margin: 0 10px;
+  /* Space between cards */
+}
+
+.stars {
+  display: flex;
+}
+
+.rated-star {
+  color: #F6E96B;
+  /* Color for rated stars */
+}
+
+.unrated-star {
+  color: grey;
+  /* Color for unrated stars */
+}
+
+//?----------------------------------END Happy PAGE-----------------------------------------//
+/*-----------------------------------  START Shadow box PAGE ---------------------------------*/
+.shadow-box {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #000000;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.offer-heading {
+  margin-bottom: 10px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 4rem;
+
+  @media (max-width: 700px) {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  color: #848484;
+  font-size: 18px;
+}
+
+@media (min-width: 568px) {
+  .shadow-box {
+    display: flex;
+    align-items: center;
+  }
+}
+
+//?---------------------------------END Shadow box PAGE-----------------------------------------//
+//------------------------------STARY END (FOOTER) PAGE-----------------------------///
+.end {
+  background-color: #dedede;
+  height: auto;
+  /* Ensure dynamic height */
+  padding: 20px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.com {
+  color: #000000;
+}
+
+.summary {
+  color: #7a7777;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.twitter,
+.face,
+.instagram,
+.github {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 0.8rem;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+
+.face {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.company h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 2px;
+}
+
+.work {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #8F8F8F;
+  line-height: 30px;
+}
+
+.visa,
+.pay {
+  width: 60px;
+  height: 50px;
+  font-size: 1.2rem;
+  border-radius: 8%;
+  background-color: #f2f0f1;
+  border: 1px solid #f2f0f1;
+  margin-bottom: 30px;
+}
+
+.pay {
+
+  padding-right: 60px;
+}
+
+@media (max-width: 768px) {
+  .end {
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+  }
+
+  .summary {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .company h1 {
+    font-size: 1.5rem;
+  }
+
+  .work {
+    font-size: 0.9rem;
+  }
+
+  .twitter,
+  .face,
+  .instagram,
+  .github {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+  }
+
+  .visa,
+  .pay {
+    width: 50px;
+    height: 45px;
+    font-size: 1.2rem;
+  }
+
+}
+
+//?---------------------------------END END(FOOOTER) PAGE-----------------------------------------//
+//?################################END [HOME] PAGE############################################//
+//-----------------------------START INTRO OF  (ABOUT} PAGE ------------------------------------//
+/* Base Styles */
+.dolars {
+  color: #c7c7c7;
+  text-decoration: line-through;
+}
+
+.sale {
+  width: 65px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  border: none;
+  color: #A64942;
+  background-color: #e3707045;
+}
+
+.edit {
+  color: #8F8F8F;
+  font-size: 1rem;
+}
+
+.color-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.color-button {
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.custom-placeholder::placeholder {
+  color: white;
+  /* Change the placeholder color to white */
+  opacity: 1;
+  /* Ensure the placeholder color is fully opaque */
+}
+
+
+.color-button.active {
+  border: 2px solid black;
+}
+
+.active-sign {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 18px;
+}
+
+.size {
+  width: 70px;
+  background-color: #8F8F8F;
+  border: none;
+}
+
+.meduim {
+  width: 100px;
+}
+
+.large {
+  background-color: #000000;
+  color: #FFFFFF;
+  width: 80px;
+}
+
+.counter {
+  display: flex;
+}
+
+.counter-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #8f8f8f;
+  background-color: #9c9c9c;
+  width: 150px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.counter-btn span {
+  flex: 1;
+  text-align: center;
+  color: #2a2a2a;
+  font-size: 1.5rem;
+}
+
+.counter-display {
+  font-size: 1.5rem;
+}
+
+/* Tabs Page Styles */
+.tabs-header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.tab-item {
+  position: relative;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #555;
+}
+
+.tab-item.active {
+  font-weight: 600;
+  color: #000;
+}
+
+.focus-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #000000;
+  border-radius: 2px;
+}
+
+.rev {
+  font-size: 1rem;
+  color: #9c9c9c;
+}
+
+.write {
+  width: 150px;
+  height: 50px;
+}
+
+.load {
+  display: block;
+  padding: 10px 20px;
+  margin: 20px auto;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  width: 200px;
+  /* Default width */
+}
+
+.load:hover {
+  background-color: #333;
+}
+
+/* Responsive Styles (for devices less than 768px) */
+@media (max-width: 768px) {
+  .sale {
+    margin-left: 0;
+    width: 50px;
+    font-size: 0.875rem;
+  }
+
+  .color-button {
+    width: 35px;
+    height: 35px;
+  }
+
+  .size,
+  .meduim,
+  .large {
+    width: 60px;
+    font-size: 0.875rem;
+  }
+
+  .counter-btn {
+    width: 120px;
+    padding: 8px;
+  }
+
+  .counter-btn span {
+    font-size: 1.25rem;
+  }
+
+  .tabs-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tab-item {
+    padding: 8px 15px;
+  }
+
+  .focus-line {
+    height: 1px;
+  }
+
+  .load {
+    width: 150px;
+    /* Reduce width */
+    padding: 8px 15px;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .all {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .all h1 {
+    font-size: 24px;
+  }
+
+  .all .rev {
+    font-size: 18px;
+  }
+
+  .all .btn,
+  .all .dropdown {
+    margin: 10px 0;
+  }
+
+  .write {
+    width: 100%;
+  }
+}
+
+/* Extra Small Devices (less than 480px) */
+@media (max-width: 480px) {
+  .sale {
+    width: 45px;
+    font-size: 0.75rem;
+  }
+
+  .color-button {
+    width: 30px;
+    height: 30px;
+  }
+
+  .size,
+  .meduim,
+  .large {
+    width: 50px;
+    font-size: 0.75rem;
+  }
+
+  .counter-btn {
+    width: 100px;
+    padding: 5px;
+  }
+
+  .counter-btn span {
+    font-size: 1rem;
+  }
+
+  .tabs-header {
+    padding-bottom: 5px;
+  }
+
+  .tab-item {
+    padding: 5px 10px;
+  }
+
+  .focus-line {
+    height: 1px;
+  }
+
+  .load {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+}
+
+//?------------------------END TABS PAGE (ABOUT)-----------------------------------------//
+//?################################ END [ABOUT] PAGE############################################//
+//########################START PICKER PAGE ########################################//
+.line {
+  width: 400px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.check {
+  color: #000000;
+}
+
+.apply {
+  width: 200px;
+  height: 50px;
+  margin: 30px 0 0px 55px;
+}
+
+//########################END PICKER PAGE ########################################//
+//! ---------------------------CART PAGE------------------------------------//
+.Gardiant {
+  width: 150px;
+}
+
+.graph {
+  font-weight: bold;
+}
